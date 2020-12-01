@@ -21,7 +21,7 @@ for i=1:10
    acc = [acc sum(testclass==labels_test) ./ size(testclass,1)];
    end
    disp(acc);
-   L_acc_list=[acc_list;acc];
+   L_acc_list=[L_acc_list;acc];
 end
 
 
